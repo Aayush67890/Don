@@ -505,7 +505,7 @@ class main_crack():
             print(f'{S} Total IDs : %s ' % len(self.id))
             print(f'{S} Cracking Started...')
             print(47*"-")
-            with AAYUSHAAYUSH(max_workers=30) as ANISHworld:
+            with ANISHANISH (max_workers=30) as ANISHworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
